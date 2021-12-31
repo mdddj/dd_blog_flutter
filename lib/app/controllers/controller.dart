@@ -9,6 +9,5 @@ class Controller extends BaseController {
   @override
   construct(BuildContext context) {
     super.construct(context);
-
   }
 }

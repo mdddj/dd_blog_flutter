@@ -13,11 +13,9 @@ import 'package:nylo_framework/nylo_framework.dart';
 */
 
 buildRouter() => nyRoutes((router) {
-
-      router.route("/", (context) => MyHomePage(title: "Hello World"));
+      router.route("/", (context) => MyHomePage(title: getEnv('APP_NAME')));
 
       // Add your routes here
 
       // router.route("/new-page", (context) => NewPage(), transition: PageTransitionType.fade);
-
     });
